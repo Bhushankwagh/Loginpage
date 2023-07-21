@@ -1,0 +1,148 @@
+h1{
+    padding: 22px 22px;
+    text-align: center;
+    background-color: rgb(96, 68, 223);
+    color: aliceblue;
+    border-top-right-radius: 50px;
+    margin-top: 0;
+    border-color: white;
+    border: 1px solid;
+}
+
+form{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.id-pass,
+.fg-up,
+.signup-c,
+.six{
+    text-align: center;   
+}
+
+.fg-up{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size:smaller;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+.six{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+input::placeholder {
+    color:black;
+}
+
+.uname,
+.pwd{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 17px;
+    border: 0;
+    background-color: rgb(219, 217, 217);
+    color: black;
+    width: 200px;
+}
+
+.pwd{
+    margin-top: 10px;
+}
+
+.up{
+    color: red;
+}
+
+.sup{
+    background-color: rgb(96, 68, 223);
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+        margin-bottom: 10px; */
+    text-align: center;
+    color: white;
+    width: 230px;
+    height: 40px;
+    border-radius: 30px;    
+}
+
+.signup-c{
+    margin-bottom: 30px;
+}
+
+body{
+    display:flex;
+}
+
+.main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+
+}
+
+.main2 {
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.main2 img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 50px 50px;
+    border-radius: 30px;
+}
+
+.supreme{
+    flex: 1;
+    display: flex;
+    max-width: 500%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.hero{
+    padding-top: 50px;
+    padding-bottom: 75px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: inline-block;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+
+.main, .main2 {
+    flex: 1;
+    padding: 10px;
+  }
+
+.main-main{
+    border-top-right-radius: 54px;
+    border-bottom-left-radius: 50px;
+    border: 3px solid rgb(96, 68, 223);
+    margin: 10px 50px;
+}
+
+.supreme{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
